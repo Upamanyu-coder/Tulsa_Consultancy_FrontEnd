@@ -1370,9 +1370,15 @@ p {
 
 /* =============== Team Page ================== */
 /* =============== Team Page ================== */
+.team-grid-c {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 6fr);
   gap: 30px;
   justify-items: center;
 }
